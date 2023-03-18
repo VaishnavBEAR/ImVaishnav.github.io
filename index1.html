@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+           Vaishnav|Portfolio
+        </title>
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <div class="hero"> 
+           <div class="cont">     
+            <a href="./index2.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                EXPLORE ME</a>
+            </div>
+
+
+          <div class="box">
+            <video autoplay muted plays-inline class="back" >
+                <source  src="./addons/mano.mp4" type="video/mp4">
+            </video>
+            <audio loop id="song">
+                <source src="./addons/bgm_aad1.mp3" type="audio/mpeg">
+            </audio>    
+           <script>
+               window.addEventListener('click',() => {
+                document.getElementById("song").play();
+               });
+            </script>
+          </div>
+        </div>   
+    </body>
+</html>
