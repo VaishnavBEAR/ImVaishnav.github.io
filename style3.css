@@ -1,9 +1,15 @@
 * {
     margin:0;
     padding: 0;
-    display:flex;
     text-decoration: none;
     border: none;
     outline: none;
     font-family: 'Poppins',sans-serif;
+    background-color: black;
+}
+.contact h1{
+     color: aliceblue;
+}
+.contact h2{
+    color: aliceblue;
 }
