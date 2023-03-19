@@ -116,7 +116,7 @@ a:hover span:nth-child(4){
     transition: 1s;
     transition-delay: 0.75s;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
     .hero{
         position: absolute;
         top: 0;
@@ -136,4 +136,20 @@ a:hover span:nth-child(4){
     .box{
         min-height: 600px;
     }
+}
+@media screen and (max-width: 290px) {
+    .hero{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+    }
+    
+
 }
